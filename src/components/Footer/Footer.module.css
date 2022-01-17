@@ -1,0 +1,37 @@
+.logo{
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #ff4c0a;
+    text-align: left;
+}
+
+.text{
+    color: #fefefe;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.social_logo{
+    text-align: left;
+    margin-top: 25px;
+}
+.img{
+    margin-right: 10px;
+}
+.head{
+    color: #fefefe;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 28px;
+    font-weight: 500;
+    
+}
+.bottom{
+    color: #fefefe;
+    font-size: 16px;
+    margin-bottom: 0px;
+    height: 49px;
+    padding-top: 12px;
+}

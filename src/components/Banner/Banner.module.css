@@ -1,0 +1,78 @@
+.imgbox {
+    height: 94vh;
+    background: url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text{
+    font-size: 67px;
+    /* width: 335px; */
+    color: #fff;
+    font-weight: 400;
+}
+.btn{
+    width: 272px;
+    height: 64px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1266px) {
+    .text{
+        font-size: 57px;
+    }
+    .btn{
+        width: 250px;
+        height: 58px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .text{
+        font-size: 47px;
+    }
+    .btn{
+        width: 220px;
+        height: 48px;
+    }
+}
+@media screen and (max-width: 921px) {
+    .text{
+        font-size: 37px;
+    }
+}
+@media screen and (max-width: 715px) {
+    .text{
+        font-size: 27px;
+    }
+    .btn{
+        width: 160px;
+        height: 38px;
+    }
+}
+@media screen and (max-width: 524px) {
+    .text{
+        font-size: 20px;
+    }
+    .btn{
+        width: 140px;
+        height: 36px;
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 396px) {
+    .text{
+        font-size: 16px;
+    }
+    .btn{
+        width: 110px;
+        font-size: 11px;
+    }
+}

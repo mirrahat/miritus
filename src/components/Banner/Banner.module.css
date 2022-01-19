@@ -58,8 +58,9 @@
 }
 @media screen and (max-width: 524px) {
     .text{
-        font-size: 20px;
+        width: 100%;
     }
+    
     .btn{
         width: 140px;
         height: 36px;
@@ -69,7 +70,7 @@
 }
 @media screen and (max-width: 396px) {
     .text{
-        font-size: 16px;
+        font-size: 20px;
     }
     .btn{
         width: 110px;

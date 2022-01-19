@@ -10,6 +10,7 @@
 .box:hover{
     box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
     transform: scale(1.05);
+    transition: .5s ease;
 }
 .heading{
     font-size: 24px;
@@ -43,7 +44,7 @@
 }
 @media screen and (max-width: 992px) {
     .box{
-        height: 450px;
+        height: 400px;
     }
 }
 

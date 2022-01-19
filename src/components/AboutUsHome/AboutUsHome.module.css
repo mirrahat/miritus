@@ -1,0 +1,136 @@
+.head{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #ff4c0a;
+    text-align: left;
+    margin-bottom: 29px;
+}
+.heading{
+    font-size: 64px;
+    color: #222a41;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 19px;
+}
+.content{
+    font-size: 14px;
+    color: #222a41;
+    font-family: 'Poppins';
+    text-align: left;
+    margin-bottom: 36px;
+    text-align: justify;
+}
+.btn{
+    width: 272px;
+    height: 64px;
+}
+.contain{
+    margin-top: 143px; 
+    margin-bottom: 143px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    margin-top: 65px;
+    justify-content: right;
+
+}
+.column {
+    flex: 25%;
+    max-width: 45%;
+    padding: 0 8px;
+}
+.column img {
+    margin-top: 15px;
+    vertical-align: middle;
+    width: 100%;
+}
+.col1{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1200px){
+    .heading{
+        font-size: 54px;
+    }
+    .row{
+        padding: 0px 6px;
+        margin-top: 85px;
+    }
+    .column{
+        padding: 0px 6px;
+    }
+    .column img{
+        margin-top: 11px;
+    }
+    .col1{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 991px){
+    .head{
+        font-size: 25px;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .row{
+        margin-top: 110px;
+    }
+    .col1{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 768px){
+    .row{
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .col1{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .head{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 34px;
+    }
+    .btn{
+        width: 200px;
+        height: 54px;
+    }
+
+    .row{
+        padding: 0px 4px;
+        margin-top: 20px;
+    }
+    .column{
+        padding: 0px 4px;
+    }
+    .column img{
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .col1{
+        margin-top: 60px;
+    }
+    .contain{
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 340px){
+    .col1{
+        margin-top: 40px;
+    }
+
+}

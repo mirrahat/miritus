@@ -20,10 +20,20 @@
         font-size: 25px;
         width: auto;
     }
+    .heading{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 430px) {
     .subHeading{
         font-size: 20px;
+    }
+    .heading{
+        font-size: 17px;
+    }
+    .contain{
+        margin-top: 80px;
+        margin-bottom: 100px;
     }
 }

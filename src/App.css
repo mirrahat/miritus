@@ -37,6 +37,10 @@
   background-color: #ff4400 !important;
 }
 
+.dropdown-toggle::after{
+  display: none !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

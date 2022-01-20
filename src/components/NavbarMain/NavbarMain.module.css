@@ -5,15 +5,22 @@
     
 }
 .nav_text:hover{
-    padding-top: 7px;
+    padding-top: 6px;
     font-size: 18px;
     color: #ff4c0a !important;
     font-weight: bold;
 }
+.active{
+    padding-top: 6px;
+    font-size: 18px;
+    color: #ff4c0a !important;
+    font-weight: bold;
+}
+
 .drop{
     width: 120px;
-    
 }
+
 .drop:hover .nav_text{
     color: #ff4c0a !important;
     font-weight: bold;

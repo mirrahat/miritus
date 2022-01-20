@@ -1,9 +1,9 @@
 import React from "react";
-import styles from './ServicesHome.module.css';
+import styles from './Services.module.css';
 import ServiceHome from "../ServiceHome/ServiceHome";
 import data from './data';
 
-const ServicesHome = () => {
+const Services = () => {
     return(
         <div className={`container ${styles.contain}`}>
                 <p className={styles.heading}>Services</p>
@@ -23,4 +23,4 @@ const ServicesHome = () => {
         </div>
     )
 }
-export default ServicesHome;
+export default Services;

@@ -1,5 +1,5 @@
 import Home from "../views/home";
-import Home2 from "../views/home2";
+import ServiceHome from "../views/servicesHome";
 
 
 const routes = [
@@ -8,8 +8,8 @@ const routes = [
         to: '/'
     },
     {
-        components: <Home2 />,
-        to: '/home2'
+        components: <ServiceHome />,
+        to: '/services'
     }
 ];
 

@@ -1,0 +1,79 @@
+.imgbox {
+    width: 100%;
+    height: 65vh;
+    background: url('../../assets/subBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.head{
+    font-size: 50px;
+    color: #fefefe;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.subHead{
+    font-size: 16px;
+    color: #fefefe;
+}
+
+@media screen and (max-width: 1080px){
+    .imgbox{
+        height: 50vh;
+    }
+    .head{
+        font-size: 40px;
+    }
+    .center{
+        top: 37%;
+    }
+}
+@media screen and (max-width: 900px){
+    .imgbox{
+        height: 40vh;
+    }
+    .head{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .subHead{
+        font-size: 15px;
+    }
+    .center{
+        top: 32%;
+    }
+}
+@media screen and (max-width: 600px){
+    .imgbox{
+        height: 30vh;
+    }
+    .head{
+        font-size: 26px;
+    }
+    .subHead{
+        font-size: 14px;
+    }
+    .center{
+        top: 24%;
+    }
+}
+@media screen and (max-width: 450px){
+    .imgbox{
+        height: 25vh;
+    }
+    .head{
+        font-size: 20px;
+    }
+    .subHead{
+        font-size: 13px;
+    }
+    .center{
+        top: 20%;
+    }
+}

@@ -1,12 +1,15 @@
 import React from "react";
 import styles from './ServicesHome.module.css';
 import ServiceHome from "../ServiceHome/ServiceHome";
+import { Link } from 'react-router-dom';
 import data from './data';
 
 const ServicesHome = () => {
     return(
         <div className={`container ${styles.contain}`}>
-            <p className={styles.heading}>Services</p>
+            <Link to="/services" style={{textDecoration:'none'}}>
+                <p className={styles.heading}>Services</p>
+            </Link>
             <div>
                 <p className={`mx-auto ${styles.subHeading}`}>Modernize your workflow and maximize result</p>
             </div>

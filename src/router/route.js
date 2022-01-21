@@ -1,6 +1,6 @@
 import Home from "../views/home";
 import Service from "../views/services";
-
+import ContactUs from '../views/contactUs';
 
 const routes = [
     {
@@ -10,6 +10,10 @@ const routes = [
     {
         components: <Service />,
         to: '/services'
+    },
+    {
+        components: <ContactUs />,
+        to: '/contactUs'
     }
 ];
 

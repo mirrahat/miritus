@@ -1,20 +1,20 @@
 import React from "react";
 import SubBanner from '../../components/SubBanner';
-import ContactUsForm from "../../components/ContactUsForm";
 import Footer from "../../components/Footer";
 import bg from '../../assets/subBanner.jpg';
+import IndividualService from "../../components/IndividualService";
 
-const ServicesHome = () => {
+const individualServices = () => {
   return (
     <>
       {/* Banner Section  */}
       <section>
-        <SubBanner heading='Contact Us' subHeading='Home /Contact Us' img={bg}/>
+        <SubBanner heading='Services' subHeading='Home /Services' img={bg}/>
       </section>
 
-      {/* Form Section  */}
+      {/* Services Section  */}
       <section>
-        <ContactUsForm />
+        <IndividualService />
       </section>
 
       {/* Footer Section  */}
@@ -25,4 +25,4 @@ const ServicesHome = () => {
   );
 };
 
-export default ServicesHome;
+export default individualServices;

@@ -11,6 +11,7 @@
     padding-right: 20px;
     padding-bottom: 20px;
     border-radius: 15px;
+    cursor: pointer;
 
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -29,7 +30,7 @@
 .subHead{
     font-family: 'Poppins';
     font-size: 42px;
-    font-weight: 500;
+    font-weight: bold;
     color: #222a41;
     margin-bottom: 80px;
 }
@@ -60,4 +61,62 @@
     text-align: left;
     color: #222a41;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .head{
+        font-size: 25px;
+    }
+    .subHead{
+        font-size: 40px;
+    }
+    .name{
+        font-size: 21px;
+    }
+    .profession{
+        font-size: 18px;
+    }
+    .msg{
+        font-size: 18px;
+    }
+    .img{
+        width: 65px;
+    }
+}
+@media screen and (max-width: 810px) {
+    .head{
+        font-size: 22px;
+    }
+    .subHead{
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+    .container{
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .profession{
+        font-size: 15px;
+    }
+    .msg{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .name{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .profession{
+        text-align: center;
+    }
+    .msg{
+        text-align: justify;
+    }
+    
 }

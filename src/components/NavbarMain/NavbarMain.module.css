@@ -11,11 +11,7 @@
     font-weight: bold;
 }
 .active{
-<<<<<<< HEAD
-    padding-top: 6px;
-=======
     padding-top: 6px !important;
->>>>>>> 38ae42397fa30a3487dca5dfb4c9b82f9bd9263b
     font-size: 18px;
     color: #ff4c0a !important;
     font-weight: bold;

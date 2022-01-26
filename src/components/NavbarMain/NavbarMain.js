@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const NavbarMain = () => {
 
   const [show, setShow] = useState(false);
-  const [activeNav, setActiveNav] = useState([ false, false, true, false ]);
+  const [activeNav, setActiveNav] = useState([ true, false, false, false ]);
 
   const showDropdown = (e) => {
     setShow(!show);
@@ -94,7 +94,7 @@ const NavbarMain = () => {
 
               
               <NavLink
-                to="/contact"
+                to="/contactUs"
                 className={` ${styles.nav_text} nav-link ${activeNav[3] ? styles.active : ""}`}
                 style={{ marginTop: "8px" }}
                 onClick={() => handleActiveNav(3)}

@@ -1,6 +1,6 @@
 import React from "react";
 import SubBanner from '../../components/SubBanner';
-import Services from '../../components/Services';
+import ContactUsForm from "../../components/ContactUsForm";
 import Footer from "../../components/Footer";
 import bg from '../../assets/subBanner.jpg';
 
@@ -9,12 +9,12 @@ const ServicesHome = () => {
     <>
       {/* Banner Section  */}
       <section>
-        <SubBanner heading='Services' subHeading='Home /Services' img={bg}/>
+        <SubBanner heading='Contact Us' subHeading='Home /Contact Us' img={bg}/>
       </section>
 
-      {/* Services Section  */}
+      {/* Form Section  */}
       <section>
-        <Services/>
+        <ContactUsForm />
       </section>
 
       {/* Footer Section  */}

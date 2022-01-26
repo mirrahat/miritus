@@ -5,6 +5,7 @@ import ServicesHome from "../../components/ServicesHome";
 import Real from "../../components/Real";
 import Footer from "../../components/Footer";
 import AboutUsHome from "../../components/AboutUsHome";
+import Testimonial from "../../components/Testimonial";
 
 
 const Home = () => {
@@ -33,6 +34,11 @@ const Home = () => {
       {/* Real Section  */}
       <section>
         <Real />
+      </section>
+
+      {/* Testimonial Section  */}
+      <section>
+        <Testimonial />
       </section>
 
       {/* Footer Section  */}

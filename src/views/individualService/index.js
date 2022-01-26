@@ -1,10 +1,10 @@
 import React from "react";
 import SubBanner from '../../components/SubBanner';
-import Services from '../../components/Services';
 import Footer from "../../components/Footer";
 import bg from '../../assets/subBanner.jpg';
+import IndividualService from "../../components/IndividualService";
 
-const ServicesHome = () => {
+const individualServices = () => {
   return (
     <>
       {/* Banner Section  */}
@@ -14,7 +14,7 @@ const ServicesHome = () => {
 
       {/* Services Section  */}
       <section>
-        <Services/>
+        <IndividualService />
       </section>
 
       {/* Footer Section  */}
@@ -25,4 +25,4 @@ const ServicesHome = () => {
   );
 };
 
-export default ServicesHome;
+export default individualServices;

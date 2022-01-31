@@ -1,5 +1,3 @@
-import seo from '../../assets/home/seo.png';
-import web from '../../assets/home/web.png';
 import seo1 from '../../assets/individualService/Image.png';
 import seo2 from '../../assets/individualService/Image_2.png';
 
@@ -8,8 +6,6 @@ const data = [
         id: 1,
         heading: 'SEO Service',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -27,8 +23,6 @@ const data = [
         id: 2,
         heading: 'Web migration services',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: web,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -46,8 +40,6 @@ const data = [
         id: 3,
         heading: 'Corporate Web Design',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -65,8 +57,6 @@ const data = [
         id: 4,
         heading: 'E-Commerce System',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -84,8 +74,6 @@ const data = [
         id: 5,
         heading: 'Web Maintenance Service',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -103,8 +91,6 @@ const data = [
         id: 6,
         heading: 'UI/UX Design',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -122,8 +108,6 @@ const data = [
         id: 7,
         heading: 'SEO Service',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -141,8 +125,6 @@ const data = [
         id: 8,
         heading: 'Web migration services',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: web,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -160,8 +142,6 @@ const data = [
         id: 9,
         heading: 'Corporate Web Design',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -179,8 +159,6 @@ const data = [
         id: 10,
         heading: 'E-Commerce System',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -198,8 +176,6 @@ const data = [
         id: 11,
         heading: 'Web Maintenance Service',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -217,8 +193,6 @@ const data = [
         id: 12,
         heading: 'UI/UX Design',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',

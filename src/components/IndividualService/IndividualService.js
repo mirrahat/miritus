@@ -1,18 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from './IndividualService.module.css';
-
+import { useLocation } from "react-router-dom";
+import data from './data';
 import timer from '../../assets/individualService/timer.png';
 import lock from '../../assets/individualService/tren.png';
 import det from '../../assets/individualService/det.png';
-import img1 from '../../assets/individualService/Image.png';
-import img2 from '../../assets/individualService/Image_2.png';
 
 const IndividualService = () =>{
+    const { search } = useLocation(); 
+    const id = parseInt(new URLSearchParams(search).get('id'));
+    let service = data.filter(x=>{
+        return x.id === id;
+    })[0];
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      })
+
     return(
         <>
             <div className={`container ${styles.contain}`}>
-                <p className={styles.heading}>SEO Marketing </p>
-                <p className={styles.heading_content}>Optics viral engagement, nor that jerk from finance really threw me under the bus or turn</p>
+                <p className={styles.heading}>{ service.heading }</p>
+                <p className={styles.heading_content}>{ service.content }</p>
             
                 <div className="row">
                     <div className="col-md-4">
@@ -34,26 +43,30 @@ const IndividualService = () =>{
                     </div>
                 </div>
 
-
-                <div className="row" style={{marginTop: '112px'}}>
-                    <div className="col-md-6">
-                        <img src={img1} alt="" className={styles.contentImg}/>
-                    </div>
-                    <div className="col-md-6">
-                        <p className={`${styles.heading} ${styles.subHead}`}>Get The Maximum Benefits</p>
-                        <p className={`${styles.heading_content} ${styles.justify}`}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-                    </div>
-                </div>
-
-                <div className="row" style={{marginTop: '112px'}}>
-                    <div className="col-md-6">
-                        <p className={`${styles.heading} ${styles.subHead}`}>Get The Maximum Benefits</p>
-                        <p className={`${styles.heading_content} ${styles.justify}`}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-                    </div>
-                    <div className="col-md-6">
-                        <img src={img2} alt="" className={styles.contentImg}/>
-                    </div>
-                </div>
+                {
+                    service.contents.map((x, idx) =>(
+                        idx%2 === 0 ?
+                        <div key={idx} className="row" style={{marginTop: '112px'}}>
+                            <div className="col-md-6">
+                                <img src={x.img} alt="" className={styles.contentImg}/>
+                            </div>
+                            <div className="col-md-6">
+                                <p className={`${styles.heading} ${styles.subHead}`}>{ x.heading }</p>
+                                <p className={`${styles.heading_content} ${styles.justify}`}>{ x.content }</p>
+                            </div>
+                        </div>
+                        :
+                        <div key={idx} className="row" style={{marginTop: '112px'}}>
+                            <div className="col-md-6">
+                                <p className={`${styles.heading} ${styles.subHead}`}>{ x.heading }</p>
+                                <p className={`${styles.heading_content} ${styles.justify}`}>{ x.content }</p>
+                            </div>
+                            <div className="col-md-6">
+                                <img src={x.img} alt="" className={styles.contentImg}/>
+                            </div>
+                        </div>
+                    ))
+                }
             
             </div>
         </>

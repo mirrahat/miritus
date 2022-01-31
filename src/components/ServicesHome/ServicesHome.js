@@ -15,7 +15,7 @@ const ServicesHome = () => {
                 {
                     data && data.map(x=>(
                         <div key={x.id} className="col-md-4">
-                            <ServiceHome heading={x.heading} content={x.content} to={x.to} icon={x.icon}/>
+                            <ServiceHome id={x.id} heading={x.heading} content={x.content} to={x.to} icon={x.icon}/>
                         </div>
                     ))
                 }

@@ -61,7 +61,7 @@ const NavbarMain = () => {
               </NavLink>
 
               <NavLink
-                to="/about"
+                to="/aboutUs"
                 className={`${styles.nav_text} nav-link ${activeNav[1] ? styles.active : ""}`}
                 style={{ marginTop: "8px" }}
                 onClick={() => handleActiveNav(1)}

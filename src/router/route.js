@@ -2,6 +2,7 @@ import Home from "../views/home";
 import Service from "../views/services";
 import ContactUs from '../views/contactUs';
 import IndividualService from "../views/individualService";
+import AboutUs from '../views/aboutUs';
 
 const routes = [
     {
@@ -19,7 +20,11 @@ const routes = [
     {
         components: <IndividualService />,
         to: '/individualService'
-    }
+    },
+    {
+        components: <AboutUs />,
+        to: '/aboutUs'
+    },
 ];
 
 export default routes;

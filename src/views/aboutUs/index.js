@@ -4,6 +4,7 @@ import SubBanner from '../../components/SubBanner';
 import Footer from "../../components/Footer";
 import Top from "../../components/AboutUs/Top";
 import Middle from "../../components/AboutUs/Middle";
+import Bottom from "../../components/AboutUs/Bottom";
 
 const aboutUs = () => {
   return (
@@ -21,6 +22,11 @@ const aboutUs = () => {
       {/* Middle Section  */}
       <section>
         <Middle />
+      </section>
+
+      {/* Bottom Section  */}
+      <section>
+        <Bottom />
       </section>
 
       {/* Footer Section  */}

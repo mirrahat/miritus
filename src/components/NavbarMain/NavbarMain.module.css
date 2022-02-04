@@ -40,8 +40,12 @@
 }
 
 .dropdownItem:hover .dropdownText{
-    color: #ff3c00;
+    color: #ff4c0a;
 }
+.drop a:hover{
+    background-color: white;
+}
+
 
 @media screen and (max-width: 991px) {
     .dropdownItem{

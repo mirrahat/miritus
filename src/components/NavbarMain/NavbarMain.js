@@ -28,6 +28,7 @@ const NavbarMain = () => {
     temp[i] = true;
     setActiveNav([...temp]);
     sessionStorage.setItem("NavbarMain", JSON.stringify(temp));
+
   };
 
 
@@ -82,7 +83,6 @@ const NavbarMain = () => {
                   </Link>
                 }
                 id="basic-nav-dropdown"
-                
               >
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => handleActiveNav(2)} className={styles.dropdownText}>Data Analytics and Research</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => handleActiveNav(2)} className={styles.dropdownText}>Quality Assurance</NavLink></NavDropdown.Item>

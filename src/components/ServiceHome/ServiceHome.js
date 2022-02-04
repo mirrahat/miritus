@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 
 const ServiceHome = (props) =>{
+    
     return(
-        <div className={styles.box}>
+        <div className={styles.box} data-aos='fade-up'>
             <img src={props.icon} alt="" className={styles.img}/>
             <p className={styles.heading}>{props.heading}</p>
             <p className={styles.text}>{props.content}</p>

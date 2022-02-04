@@ -1,0 +1,140 @@
+.heading{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff4c0a;
+    margin-top: 77px;
+    margin-bottom: 0px;
+}
+.subHeading{
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-weight: bold;
+    color: #2e2d26;
+    margin-top: 36px;
+}
+.content{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #2e2d26;
+    margin-top: 14px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    margin-bottom: 70px;
+}
+.contain{
+    padding-left: 100px;
+}
+.about{
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: bold;
+    color: #0f0a18;
+    text-align: left;
+    margin-bottom: 4px;
+    margin-top: 119px;
+}
+
+.imgContain{
+    margin-left: -90px;
+}
+.img1{
+    width: 100%;
+    height: auto;
+}
+.img2{
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 14px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 82px;
+}
+.creativity{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    color: #4f4c86;
+    text-align: left;
+}
+.contn{
+    font-family: 'Poppins';
+    opacity: .5;
+    font-size: 14px;
+    color: #0f0a18;
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    .contain{
+        padding-left: 40px;
+    }
+    .img2{
+        padding-left: 40px;
+    }
+    .imgContain{
+        margin-left: -60px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .heading{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .subHeading{
+        font-size: 29px;
+        margin-top: 30px;
+    }
+    .contain{
+        padding-left: 0px;
+    }
+    .img2{
+        padding-left: 0px;
+        margin-bottom: 60px;
+    }
+    .imgContain{
+        margin-left: -30px;
+    }
+    .about{
+        font-size: 40px;
+    }
+    .creativity{
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .content{
+        width: 100%;
+    }
+    .about{
+        margin-top: 80px;
+    }
+    .imgContain{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .heading{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .subHeading{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .img2{
+        margin-bottom: 40px;
+    }
+    .about{
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    .creativity{
+        font-size: 20px;
+    }
+
+}

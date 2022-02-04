@@ -29,9 +29,9 @@ function Testimonial() {
       };
   
     return (
-        <div className={styles.container}>
-            <p className={styles.head}>Our Testimonial</p>
-            <p className={styles.subHead}>Our trusted client review</p>
+        <div className={`${styles.container} overflow-hidden`}>
+            <p data-aos='slide-right' className={styles.head}>Our Testimonial</p>
+            <p data-aos='slide-left' className={styles.subHead}>Our trusted client review</p>
 
             <Carousel
                 swipeable={true}

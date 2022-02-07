@@ -16,12 +16,11 @@
 .content{
     font-family: 'Poppins';
     font-size: 14px;
-    color: #2e2d26;
+    color: #989e9d;
     margin-top: 14px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.6;
     margin-bottom: 70px;
 }
 .contain{
@@ -61,9 +60,8 @@
 }
 .contn{
     font-family: 'Poppins';
-    opacity: .5;
     font-size: 14px;
-    color: #0f0a18;
+    color: #989e9d;
     text-align: left;
 }
 

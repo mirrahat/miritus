@@ -17,33 +17,33 @@ const ContactUsForm = () =>{
 
     return(
         <>
-            <div className={`container ${styles.contain}`}>
-                <p className={`${styles.heading} mx-auto`}>We&apos;d Love to Hear From You</p>
+            <div className={`container ${styles.contain} overflow-hidden`}>
+                <p data-aos='fade-up' className={`${styles.heading} mx-auto`}>We&apos;d Love to Hear From You</p>
 
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos='fade-right'>
                         <p className={styles.head}>Address</p>
                         <p className={styles.content}>1201 New Zealand Metropolis 3452</p>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos='fade-up'>
                         <p className={styles.head}>Contact</p>
                         <p className={styles.content}>Mobile 	: +00 123 456 78</p> 
                         <p className={styles.content}>Phone 	: +00 123 678 90</p>
                         <p className={styles.content}>Email: contact@gmail.com</p>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos='fade-left'>
                         <p className={styles.head}>Address</p>
                         <p className={styles.content}>Monday - Friday: 09:00 - 20:00</p>
                         <p className={styles.content}>Sunday &amp; Saturday: 10:30 - 22:00</p>
                     </div>
                 </div>
 
-                <p className={styles.email}>You can email us</p>
+                <p className={styles.email} data-aos='fade-up'>You can email us</p>
 
                 <div className="row">
-                    <div className="col-md-6" style={{textAlign: 'left'}}>
+                    <div className="col-md-6" data-aos='fade-right' style={{textAlign: 'left'}}>
                         <label className={styles.label}>Name</label><br/>
                         <input name="name" value={formContent.name} onChange={handleChange} className={styles.input} type="text" />
 
@@ -54,7 +54,7 @@ const ContactUsForm = () =>{
                         <input name="subject" value={formContent.subject} onChange={handleChange} className={styles.input} type="text" />
                     </div>
 
-                    <div className="col-md-6" style={{textAlign: 'left'}}>
+                    <div className="col-md-6" data-aos='fade-left' style={{textAlign: 'left'}}>
                         <label className={styles.label}>Message</label><br/>
                         <textarea name="message" value={formContent.message} onChange={handleChange} className={`${styles.input} ${styles.msg}`} type="text"/>
                         <div style={{textAlign:'right'}}>

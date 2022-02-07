@@ -5,10 +5,10 @@ const SubBanner = ({heading, subHeading, img}) => {
 
   return (
     <>
-        <div className={styles.imgbox} style={{backgroundImage: `url(${img})`}}>
+        <div className={`${styles.imgbox} overflow-hidden`} style={{backgroundImage: `url(${img})`}}>
             <div className={styles.center}>
-                <p className={styles.head}>{heading}</p>
-                <p className={styles.subHead}>{subHeading}</p>
+                <p data-aos='slide-right' className={styles.head}>{heading}</p>
+                <p data-aos='slide-left' className={styles.subHead}>{subHeading}</p>
             </div>
         </div>
         

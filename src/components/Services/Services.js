@@ -5,10 +5,10 @@ import data from './data';
 
 const Services = () => {
     return(
-        <div className={`container ${styles.contain}`}>
-                <p className={styles.heading}>Services</p>
+        <div className={`container ${styles.contain} overflow-hidden pb-2`}>
+                <p data-aos='slide-right' className={styles.heading}>Services</p>
             <div>
-                <p className={`mx-auto ${styles.subHeading}`}>Modernize your workflow and maximize result</p>
+                <p data-aos='slide-left' className={`mx-auto ${styles.subHeading}`}>Modernize your workflow and maximize result</p>
             </div>
 
             <div className="row">

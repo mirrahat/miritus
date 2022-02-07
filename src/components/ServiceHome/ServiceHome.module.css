@@ -8,8 +8,8 @@
     height: 400px;
 }
 .box:hover{
-    box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
-    transform: scale(1.05);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transform: scale(1.1);
     transition: .5s ease;
 }
 .heading{

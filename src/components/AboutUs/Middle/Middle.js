@@ -6,13 +6,13 @@ import logo3 from '../../../assets/aboutUs/middle3.png';
 
 const Middle = () =>{
     return(
-        <div style={{backgroundColor: '#f8f8f8'}}>
+        <div style={{backgroundColor: '#f8f8f8'}} className='overflow-hidden'>
             <div className={`container ${styles.contain}`}>
-                <p className={styles.mainHead}>Lorem ipsum dolor sit amet</p>
-                <p className={styles.mainContent}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+                <p data-aos='fade-down-right' data-aos-offset="180" className={styles.mainHead}>Lorem ipsum dolor sit amet</p>
+                <p data-aos='fade-up-left' data-aos-offset="180" className={styles.mainContent}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
 
                 <div className="row">
-                    <div className="col-md-4">
+                    <div data-aos='fade-right' data-aos-offset="170" className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo1} alt=""/>
                             <p className={styles.head}>Web Design</p>
@@ -20,7 +20,7 @@ const Middle = () =>{
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div data-aos='fade-up' className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo2} alt=""/>
                             <p className={styles.head}>Web Design</p>
@@ -28,7 +28,7 @@ const Middle = () =>{
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div data-aos='fade-left' className="col-md-4">
                         <div className={styles.box}>
                             <img src={logo3} alt=""/>
                             <p className={styles.head}>Web Design</p>

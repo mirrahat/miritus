@@ -6,7 +6,7 @@ import data from './data';
 const Services = () => {
     return(
         <div className={`container ${styles.contain} overflow-hidden pb-2`}>
-                <p data-aos='slide-right' data-aos-anchor-placement="top-bottom" className={styles.heading}>Services</p>
+                <p data-aos='slide-right' className={styles.heading}>Services</p>
             <div>
                 <p data-aos='slide-left' className={`mx-auto ${styles.subHeading}`}>Modernize your workflow and maximize result</p>
             </div>

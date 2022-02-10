@@ -7,6 +7,11 @@ const NavbarMain = () => {
 
   const [show, setShow] = useState(false);
   const [activeNav, setActiveNav] = useState([ true, false, false, false ]);
+  const [expand, setExpand] = useState(false);
+
+  const closeNav = ()=>{
+    setExpand(false);
+  }
 
   const showDropdown = (e) => {
     setShow(!show);
@@ -43,6 +48,8 @@ const NavbarMain = () => {
         variant="light"
         expand="lg"
         sticky="top"
+        onToggle={()=>{setExpand(prevState => !prevState)}}
+        expanded={expand}
       >
         <Container>
           <Navbar.Brand href="/" className={styles.logo}>
@@ -51,12 +58,12 @@ const NavbarMain = () => {
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav style={{marginLeft:'auto'}}>
+            <Nav style={{marginLeft:'auto'}} >
               <NavLink
                 to="/"
                 className={`${styles.nav_text} nav-link ${activeNav[0] ? styles.active : ""}`}
                 style={{ marginTop: "8px"}}
-                onClick={() => handleActiveNav(0)}
+                onClick={() => {handleActiveNav(0); closeNav()}}
               >
                 Home
               </NavLink>
@@ -65,7 +72,7 @@ const NavbarMain = () => {
                 to="/aboutUs"
                 className={`${styles.nav_text} nav-link ${activeNav[1] ? styles.active : ""}`}
                 style={{ marginTop: "8px" }}
-                onClick={() => handleActiveNav(1)}
+                onClick={() => {handleActiveNav(1); closeNav()}}
               >
                 About us
               </NavLink>
@@ -76,7 +83,7 @@ const NavbarMain = () => {
                 onMouseLeave={hideDropdown}
                 className={`nav-link ${styles.drop}`}
                 title={
-                  <Link to="/services" style={{textDecoration:'none'}} className={styles.dropicon} onClick={() => handleActiveNav(2)}>
+                  <Link to="/services" style={{textDecoration:'none'}} className={styles.dropicon} onClick={() => {handleActiveNav(2); closeNav()}}>
                     <span className={`${styles.nav_text} my-auto ${activeNav[2] ? styles.active : ""}`}>
                       Services
                     </span>
@@ -84,11 +91,11 @@ const NavbarMain = () => {
                 }
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => handleActiveNav(2)} className={styles.dropdownText}>Data Analytics and Research</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => handleActiveNav(2)} className={styles.dropdownText}>Quality Assurance</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => handleActiveNav(2)} className={styles.dropdownText}>Cloud and IoT Based Solutions</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => handleActiveNav(2)} className={styles.dropdownText}>IT Consultancy</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => handleActiveNav(2)} className={styles.dropdownText}>AI Solutions</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Data Analytics and Research</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Quality Assurance</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Cloud and IoT Based Solutions</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>IT Consultancy</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>AI Solutions</NavLink></NavDropdown.Item>
 
               </NavDropdown>
 
@@ -97,7 +104,7 @@ const NavbarMain = () => {
                 to="/contactUs"
                 className={` ${styles.nav_text} nav-link ${activeNav[3] ? styles.active : ""}`}
                 style={{ marginTop: "8px" }}
-                onClick={() => handleActiveNav(3)}
+                onClick={() => {handleActiveNav(3); closeNav()}}
               >
                 Contact Us
               </NavLink>

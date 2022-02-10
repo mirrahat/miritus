@@ -2,6 +2,7 @@ import React from "react";
 import Banner from '../../components/Banner';
 import ChoosingUs from "../../components/ChoosingUs";
 import ServicesHome from "../../components/ServicesHome";
+import CaseStudy from "../../components/CaseStudy";
 import Real from "../../components/Real";
 import Footer from "../../components/Footer";
 import AboutUsHome from "../../components/AboutUsHome";
@@ -29,6 +30,11 @@ const Home = () => {
       {/* Services Section  */}
       <section>
         <ServicesHome />
+      </section>
+
+      {/* Case Study Section  */}
+      <section>
+        <CaseStudy />
       </section>
 
       {/* Real Section  */}

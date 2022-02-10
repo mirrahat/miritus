@@ -7,12 +7,14 @@
     margin-bottom: 29px;
 }
 .heading{
-    font-size: 64px;
+    font-size: 48px;
     color: #222a41;
     font-family: 'Poppins';
     font-weight: 600;
     text-align: left;
-    margin-bottom: 19px;
+    margin-bottom: 34px;
+    width: 80%;
+    line-height: 1.3;
 }
 .content{
     font-size: 14px;
@@ -55,7 +57,7 @@
 
 @media screen and (max-width: 1200px){
     .heading{
-        font-size: 54px;
+        font-size: 40px;
     }
     .row{
         padding: 0px 6px;
@@ -76,7 +78,7 @@
         font-size: 25px;
     }
     .heading{
-        font-size: 40px;
+        width: 100%;
     }
     .row{
         margin-top: 110px;

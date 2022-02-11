@@ -6,7 +6,7 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 const ServiceHome = (props) =>{
     
     return(
-        <div className={styles.box} data-aos='fade-up'>
+        <div className={styles.box}>
             <img src={props.icon} alt="" className={styles.img}/>
             <p className={styles.heading}>{props.heading}</p>
             <p className={styles.text}>{props.content}</p>

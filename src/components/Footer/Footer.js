@@ -49,7 +49,7 @@ const Footer = () =>{
             </div>
 
 
-            <div style={{backgroundColor:'#ff4c0a'}}>
+            <div style={{backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070'}}>
                     <p className={styles.bottom}>Copyright © 2020. All right reserved</p>
             </div>
         </>

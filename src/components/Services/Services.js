@@ -11,10 +11,10 @@ const Services = () => {
                 <p data-aos='slide-left' className={`mx-auto ${styles.subHeading}`}>Modernize your workflow and maximize result</p>
             </div>
 
-            <div className="row">
+            <div className={`row ${styles.cont}`}>
                 {
                     data && data.map(x=>(
-                        <div key={x.id} className="col-md-4">
+                        <div key={x.id} className="col-lg-4 col-md-6">
                             <ServiceHome id={x.id} heading={x.heading} content={x.content} to={x.to} icon={x.icon}/>
                         </div>
                     ))

@@ -21,6 +21,10 @@
     font-weight: bold;
     color: #ff4c0a;
 }
+.grp_btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .filter{
     display: inline;
@@ -33,6 +37,10 @@
     cursor: pointer;
 }
 .filter:hover{
+    color: #ff4c0a;
+    font-weight: bold;
+}
+.active{
     color: #ff4c0a;
     font-weight: bold;
 }
@@ -61,4 +69,47 @@
     text-align: left;
     padding-left: 30px;
     padding-bottom: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .head{
+        font-size: 25px;
+    }
+    .our, .study{
+        font-size: 30px;
+    }
+    .filter{
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .imgText2{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .imgText1{
+        padding-left: 20px;
+    }
+    .grp_btn{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .head{
+        font-size: 18px;
+    }
+    .our, .study{
+        font-size: 22px;
+    }
+    .filter{
+        font-size: 14px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .grp_btn{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }

@@ -1,8 +1,12 @@
 .contain{
     margin-top: 83px;
-    margin-bottom: 194px;
+    margin-bottom: 174px;
 }
-
+.cont{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
 .heading{
     font-size: 30px;
     color: #ff4c0a;
@@ -13,6 +17,13 @@
     font-weight: bold;
     color: #222a41;
     width: 645px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cont{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -35,5 +46,11 @@
     .contain{
         margin-top: 80px;
         margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .cont{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }

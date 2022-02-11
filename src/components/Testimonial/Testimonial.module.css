@@ -3,7 +3,7 @@
     margin-bottom: 150px;
 }
 .box{
-    box-shadow: 0px 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 7px;
     margin-bottom: 60px;
     padding-top: 19px;
@@ -19,7 +19,6 @@
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-    
 }
 .head{
     font-family: 'Poppins';
@@ -32,35 +31,34 @@
     font-size: 42px;
     font-weight: bold;
     color: #222a41;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .img{
-    width: 80px;
+    width: 60px;
     height: auto;
     border-radius: 50px;
 }
 .name{
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Poppins';
     text-align: left;
     margin-bottom: 0px;
-    margin-left: 4px;
     color: #222a41;
     font-weight: bold;
 }
 .profession{
     font-family: 'Poppins';
-    font-size: 22px;
+    font-size: 16px;
     text-align: left;
-    margin-left: 4px;
     color: #222a41;
 }
 .msg{
     font-family: 'Poppins';
     text-align: left;
     color: #222a41;
-    font-size: 20px;
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -71,16 +69,16 @@
         font-size: 40px;
     }
     .name{
-        font-size: 21px;
+        font-size: 19px;
     }
     .profession{
-        font-size: 18px;
+        font-size: 15px;
     }
     .msg{
-        font-size: 18px;
+        font-size: 14px;
     }
     .img{
-        width: 65px;
+        width: 55px;
     }
 }
 @media screen and (max-width: 810px) {
@@ -95,14 +93,7 @@
         margin-bottom: 100px;
         margin-top: 100px;
     }
-    .name{
-        font-size: 18px;
-    }
-    .profession{
-        font-size: 15px;
-    }
     .msg{
-        font-size: 15px;
         padding-top: 10px;
     }
 }

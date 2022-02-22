@@ -31,10 +31,10 @@ const CaseStudy = () =>{
                 <p onClick={()=>{ filterData('strategy'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>STRATEGY</p>
             </div>
 
-            <div className='row'>
+            <div className='row mb-2'>
                 {
                     data.map((x) =>(
-                        <div key={x.id} className='col-md-4 col-sm-6 mt-4' data-aos='fade'>
+                        <div key={x.id} className={`col-md-4 col-sm-6 mt-4`} data-aos='fade'>
                             <div className={styles.img} style={{backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.0), rgba(5, 25, 81, .55)), url(${x.img})`}}>
                                 <p className={styles.imgText1}>{x.designation}</p>
                                 <p className={styles.imgText2}>{x.title}</p>

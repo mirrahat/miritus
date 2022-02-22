@@ -51,6 +51,11 @@
     background-size: cover;
     background-image: url("../../assets/caseStudy/gradient.png"), linear-gradient(#eb01a5, #d13531);
     border-radius: 10px;
+    cursor: pointer;
+}
+.img:hover{
+    transform: scale(1.04);
+    transition: .5s;
 }
 .imgText1{
     font-family: 'Poppins';

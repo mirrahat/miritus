@@ -1,0 +1,60 @@
+.banner{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.title{
+    font-size: 30px;
+    color: #ff4c0a;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 60px;
+}
+.heading{
+    font-size: 34px;
+    font-weight: bold;
+    color: #010101;
+    text-align: left;
+}
+.subHead{
+    font-size: 18px;
+    color: #6f6d71;
+    text-align: left;
+}
+.card{
+    width: 22rem;
+    margin-top: -150px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+.cardL{
+    display: inline;
+    font-size: 17px;
+    color: #6f6d71;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cardR{
+    display: inline;
+    font-size: 17px;
+    color: #010101;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.textBody{
+    margin: 0px 110px ;
+}
+.text{
+    font-size: 18px;
+    text-align: left;
+    padding-right: 60px;
+    color: #6f6d71;
+    line-height: 1.68;
+}

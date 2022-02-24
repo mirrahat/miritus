@@ -61,7 +61,7 @@
     margin: 50px 110px 0px !important;
 }
 .tBody{
-    margin: 50px 0px 0px 240px !important;
+    margin: 50px 0px 0px 110px !important;
 }
 .text{
     font-size: 18px;
@@ -86,7 +86,7 @@
     text-align: left;
     color: #010101;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -105,6 +105,9 @@
     }
     .cardL, .cardR, .text, .summary{
         font-size: 16px;
+    }
+    .pTitle{
+        font-size: 30px;
     }
 }
 
@@ -137,6 +140,12 @@
     .sBody{
         margin: 50px 20px 0px !important;
     }
+    .tBody{
+        margin: 50px 0px 0px 20px !important;
+    }
+    .pTitle{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 768px) {
     .card{
@@ -145,6 +154,10 @@
     }
     .sBody{
         margin: 0px 20px 0px !important;
+    }
+    .pTitle{
+        font-size: 23px;
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width: 450px) {

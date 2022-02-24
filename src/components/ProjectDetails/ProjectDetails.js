@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './ProjectDetails.module.css';
+import OtherProjects from './OtherProjects';
 import banner from '../../assets/projectDetails/banner.png';
 import cardImg from '../../assets/projectDetails/card.png';
 import project1 from '../../assets/projectDetails/project1.png';
@@ -69,9 +70,14 @@ const ProjectDetails = () =>{
             </div>
 
             {/* Other Projects  */}
-            {/* <div className={`mt-3 ${styles.tBody}`}>
-                <p className={styles.pTitle}>Other project</p>
-            </div> */}
+            <div className="container" style={{ paddingRight: '0px'}}>
+                <div className={`row mt-3 ${styles.tBody}`}>
+                    <p className={styles.pTitle}>Other project</p>
+                    <div>
+                        <OtherProjects />
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

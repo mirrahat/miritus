@@ -1,0 +1,188 @@
+.banner{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.title{
+    font-size: 30px;
+    color: #ff4c0a;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 60px;
+}
+.heading{
+    font-size: 34px;
+    font-weight: bold;
+    color: #010101;
+    text-align: left;
+}
+.subHead{
+    font-size: 18px;
+    color: #6f6d71;
+    text-align: left;
+}
+.card{
+    width: 22rem;
+    margin-top: -150px;
+    margin-left: 50px;
+    padding-bottom: 15px;
+    border: 0px !important;
+    border-radius: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+.cardL{
+    display: inline;
+    font-size: 17px;
+    color: #6f6d71;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cardR{
+    display: inline;
+    font-size: 17px;
+    color: #010101;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cardMargin{
+    margin: 0px 40px;
+}
+.cBody{
+    margin: 0px 110px !important;
+}
+.textBody{
+    margin: 40px 110px !important;
+}
+.sBody{
+    margin: 50px 110px 0px !important;
+}
+.tBody{
+    margin: 50px 0px 0px 110px !important;
+}
+.text{
+    font-size: 18px;
+    text-align: left;
+    padding-right: 60px;
+    color: #6f6d71;
+    line-height: 1.68;
+}
+.pImg{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.summary{
+    font-size: 18px;
+    text-align: left;
+    color: #6f6d71;
+    line-height: 1.68;
+}
+.pTitle{
+    font-size: 35px;
+    text-align: left;
+    color: #010101;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .title{
+        font-size: 25px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .subHead{
+        font-size: 16px;
+    }
+    .card{
+        margin-left: 30px;
+        width: 20rem;
+    }
+    .cardL, .cardR, .text, .summary{
+        font-size: 16px;
+    }
+    .pTitle{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner{
+        width: 100%;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .heading{
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .subHead{
+        font-size: 15px;
+    }
+    .card{
+        width: 18rem;
+    }
+    .cardL, .cardR, .text, .summary{
+        font-size: 15px;
+    }
+    .cBody{
+        margin: 0px 20px !important;
+    }
+    .textBody{
+        margin: 30px 20px !important;
+    }
+    .sBody{
+        margin: 50px 20px 0px !important;
+    }
+    .tBody{
+        margin: 50px 0px 0px 20px !important;
+    }
+    .pTitle{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sBody{
+        margin: 0px 20px 0px !important;
+    }
+    .pTitle{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .card{
+        margin-top: -60px;
+        width: 100%;
+    }
+    .title{
+        font-size: 19px;
+    }
+    .heading{
+        font-size: 24px;
+    }
+    .subHead{
+        font-size: 14px;
+    }
+    .cardL, .cardR, .text, .summary{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .cardMargin{
+        margin: 0px 20px;
+    }
+    .text{
+        padding-right: 0px;
+    }
+}

@@ -3,6 +3,7 @@ import Service from "../views/services";
 import ContactUs from '../views/contactUs';
 import IndividualService from "../views/individualService";
 import AboutUs from '../views/aboutUs';
+import ProjectDetails from "../views/projectDetails";
 
 const routes = [
     {
@@ -24,6 +25,10 @@ const routes = [
     {
         components: <AboutUs />,
         to: '/aboutUs'
+    },
+    {
+        components: <ProjectDetails />,
+        to: '/projectDetails'
     },
 ];
 

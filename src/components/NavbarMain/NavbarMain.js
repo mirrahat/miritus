@@ -91,7 +91,7 @@ const NavbarMain = () => {
                 }
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Data Analytics and Research</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Social Media Marketing</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Quality Assurance</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Cloud and IoT Based Solutions</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>IT Consultancy</NavLink></NavDropdown.Item>

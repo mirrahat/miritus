@@ -4,6 +4,7 @@ import ContactUs from '../views/contactUs';
 import IndividualService from "../views/individualService";
 import AboutUs from '../views/aboutUs';
 import ProjectDetails from "../views/projectDetails";
+import SMediaService from '../views/sMediaService';
 
 const routes = [
     {
@@ -30,6 +31,10 @@ const routes = [
         components: <ProjectDetails />,
         to: '/projectDetails'
     },
+    {
+        components: <SMediaService />,
+        to: '/sMediaService'
+    }
 ];
 
 export default routes;

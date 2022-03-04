@@ -1,0 +1,140 @@
+.img1{
+    width: 100%;
+
+}
+.img2{
+    width: 100%;
+    height: auto;
+}
+.topContain{
+    padding-left: 120px;
+    padding-right: 50px;
+    background-color: #f6fafb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    /* display: flex; */
+}
+.headTop{
+    font-family: 'Poppins';
+    font-size: 35px;
+    color: #212121;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 0px;
+}
+.identityTop{
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #111111;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #111;
+    /* width: 100%; */
+    text-align: left;
+    line-height: 1.3;
+}
+
+.contain{
+    margin-top: 150px !important;
+    margin-bottom: 150px;
+}
+.heading{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+.text{
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: left;
+    color: #444554;
+    width: 350px;
+}
+.bottomContain{
+    padding-left: 100px;
+}
+.heading1{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -20px;
+}
+.text1{
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: left;
+    color: #444554;
+    width: 400px;
+}
+
+@media screen and (max-width: 1280px) {
+    .topContain{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .topContain{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .topContain{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .topContain{
+        padding-left: 90px;
+    }
+    .headTop{
+        font-size: 30px;
+    }
+    .identityTop{
+        font-size: 22px;
+    }
+    .content{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .img1{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .topContain{
+        padding-left: 70px;
+    }
+    .img1{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 962px) {
+    .img1{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .img1{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .topContain{
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    .img1{
+        margin-top: 50px;
+    }
+}

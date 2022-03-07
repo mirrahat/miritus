@@ -1,6 +1,5 @@
 .img1{
     width: 100%;
-
 }
 .img2{
     width: 100%;
@@ -11,9 +10,8 @@
     padding-right: 50px;
     background-color: #f6fafb;
     padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    /* display: flex; */
+    padding-bottom: 20px;
+    margin-top: 80px;
 }
 .headTop{
     font-family: 'Poppins';
@@ -60,7 +58,7 @@
     width: 350px;
 }
 .bottomContain{
-    padding-left: 100px;
+    padding-left: 80px !important;
 }
 .heading1{
     font-family: 'Poppins';
@@ -79,17 +77,17 @@
 
 @media screen and (max-width: 1280px) {
     .topContain{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 }
 @media screen and (max-width: 1200px) {
     .topContain{
-        margin-top: 20px;
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 1155px) {
     .topContain{
-        margin-top: 0px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 1100px) {
@@ -115,18 +113,54 @@
     .topContain{
         padding-left: 70px;
     }
+    .bottomContain{
+        padding-left: 50px !important;
+    }
+    .text1{
+        width: 100%;
+    }
     .img1{
         margin-top: 20px;
+    }
+    .img2{
+        padding-top: 60px;
     }
 }
 @media screen and (max-width: 962px) {
     .img1{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 }
 @media screen and (max-width: 900px) {
     .img1{
         margin-top: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .topContain{
+        margin-top: 0px;
+    }
+    .img2{
+        padding-top: 0px;
+    }
+    .text{
+        width: 100%;
+    }
+    .img1{
+        margin-top: -50px !important;
+    }
+    .contain{
+        margin-top: 50px !important;
+        margin-bottom: 50px;
+    }
+    .heading{
+        margin-top: 20px;
+    }
+    .heading1{
+        margin-top: 20px;
+    }
+    .middleContain{
+        padding-left: 50px;
     }
 }
 @media screen and (max-width: 850px) {

@@ -11,13 +11,6 @@ const SMediaServices = () =>{
                 {/* Top  */}
                 <div className="row mt-5 mx-0 flex-column-reverse flex-md-row">
                     <div className="col-md-6 px-0">
-                        {/* <div className="py-5" style={{backgroundColor: '#f6fafb', paddingLeft: '20%', paddingRight: '30px'}}>
-                            <p className={styles.social}>Social&nbsp;</p>
-                            <p className={styles.media}>Media</p><br/><br/>
-                            <p className={styles.marketing}>Marketing</p>
-                            <p className={styles.identity}>Identity on Social Media</p>
-                            <p className={styles.content}>More than ever users are seeking information and basing decisions on their peers’ advice and opinions. Customers head to your Facebook and Twitter sometimes based on a post or a re-tweet. Let your brand identity on social media be consistent with the brand you have worked so hard to develop.</p>
-                        </div> */}
                         <div className={styles.topContain}>
                             <p className={`${styles.headTop}`}>Social <span style={{color:'#ff4c0a'}}>Media</span></p>
                             <p className={styles.headTop}>Marketing</p>
@@ -33,7 +26,7 @@ const SMediaServices = () =>{
                 {/* Middle  */}
                 <div className="container">
                     <div className={`row ${styles.contain} flex-column-reverse flex-md-row`}>
-                        <div className="col-md-6">
+                        <div className={`col-md-6 ${styles.middleContain}`}>
                             <p className={styles.heading}>Next Level</p>
                             <p className={styles.text}>Bringing your business into the social media scene will bring you to the next level of advertising as well as a whole new way to connect with your market. This is the next step.</p>
                         </div>

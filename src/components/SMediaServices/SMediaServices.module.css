@@ -168,6 +168,9 @@
         padding-left: 50px;
         padding-right: 30px;
     }
+    .middleContain{
+        padding-left: 50px !important;
+    }
     .img1{
         margin-top: 50px;
     }
